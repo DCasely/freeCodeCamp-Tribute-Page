@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  line-height: 2;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#image {
+  border: solid black;
+  margin-top: 1%;
+}
+
+#img-div {
+  background: white;
+  width: 95%;
+  margin: auto;
+}
+
+#image-caption {
+  padding-bottom: 1%;
+}
+
+#main {
+  background-color: lightgray;
+  height: 95vh;
+  width: 90%;
+  margin: auto;
+}
+
+img {
+  width: 25%;
+  padding: 2%;
+  max-width: 600px;
+}
+
+ul {
+  list-style: none;
+  max-width: 400px;
+}
+
+#tribute-footer,
+ul {
+  width: 50%;
+  margin: auto;
+}
+
+#tribute-quote p {
+  max-width: 600px;
+  margin: 2.5% auto;
+}
