@@ -1,43 +1,80 @@
 body {
   margin: 0;
   line-height: 2;
-  text-align: center;
-  font-size: 1.1rem;
-}
-
-#img-div {
-  background: white;
-  width: 95%;
-  margin: auto;
-}
-
-img {
-  display: block;
-  border: solid black;
-  width: 10%;
-  margin: 1% auto;
-}
-
-#img-caption {
-  padding-bottom: 1%;
+  letter-spacing: 0.05rem;
+  font-size: 1rem;
 }
 
 #main {
   background-color: lightgray;
-  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 90%;
-  margin: auto;
+  margin: 2.5rem auto;
 }
 
-img {
+.top {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
+.mid {
+  position: relative;
+
+  background: #fff;
+  width: 95%;
+  padding: 5rem 0;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-caption {
+  position: absolute;
+  bottom: 0;
+}
+
+img,
+#kobe {
+  display: block;
+  width: 50%;
+  margin: 2.5rem auto;
+  max-width: 900px;
+}
+
+.blkmamba {
   width: 25%;
-  padding: 2%;
-  max-width: 600px;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#timeline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
-  list-style: none;
-  max-width: 400px;
+  max-width: 900px;
+  padding-left: 10rem;
+}
+
+span {
+  font-weight: 700;
+}
+
+#tribute-quote p {
+  text-align: center;
 }
 
 #tribute-footer,
@@ -47,6 +84,6 @@ ul {
 }
 
 #tribute-quote p {
-  max-width: 600px;
+  max-width: 900px;
   margin: 2.5% auto;
 }
